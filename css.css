@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 700px;
+    background-color: black;      
+    position: relative;
+    overflow: hidden;
+    display: flex;
+   
+    
+
+}
+
+
+.uno {
+      
+    z-index: 5;
+    position: absolute;
+    left: 0%;
+    width: 32%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    display: block;
+    overflow: hidden;
+    opacity: 80%;   
+    
+}
+
+.dos {
+    position: absolute;
+    z-index: 4;
+    left: 8%;
+    width: 48%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    display: block;
+    overflow: hidden;
+    opacity: 80%;
+    
+   
+   
+    
+   
+}
+
+.tres {
+    position: absolute;
+    z-index: 3;
+    left: 32%;
+    width: 48%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    display: block;
+    opacity: 80%;
+    
+    
+    
+    
+    
+}
+
+.cuatro {
+    
+    z-index: 2;
+    position: absolute;
+    right: 0%;
+    width: 44%;
+    height: 100%;
+    transition: transform 0.3s ease;   
+    display: block;
+    opacity: 80%;
+    
+    
+    
+    
+    
+    
+
+}
+
+ .menu{
+    background-color: black;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
+
+  .menu img{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 87px;
+    width: 150px;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap:60px;
+    font-size: 30px;
+    margin-right: 130px;
+  }
+
+
+.container img:hover{
+    transform: scale(1.04);
+    opacity: 100%;    
+}
+
+
+h1{
+    
+    color:black; /* Color del texto */
+    font-weight: bolder;
+    font-size: 24px; /* Tamaño de fuente */   
+    position: relative; /* Se establece una posición diferente a static */
+    z-index: 10;
+    display: none;
+         
+}
+.hola1,.hola2,.hola3,.hola4{
+    text-align: center;
+    width: 25%;
+   
+}
+
+
