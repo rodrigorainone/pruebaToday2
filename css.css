@@ -122,6 +122,7 @@ h1{
     position: relative; /* Se establece una posición diferente a static */
     z-index: 10;
     display: none;
+    pointer-events: none;
          
 }
 .hola1,.hola2,.hola3,.hola4{

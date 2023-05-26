@@ -11,4 +11,6 @@ holaItems.forEach((holaItem) => {
   img.addEventListener('mouseleave', () => {
     h1.style.display = 'none';
   });
+  
 });
+
